@@ -99,7 +99,7 @@ fun ArtWorkButtons(
         ) {
             Text(text = "Previous")
         }
-        if (windowSize > 800) {
+        if (windowSize > 1400) {
             Spacer(modifier = Modifier.width(800.dp))
         } else {
             Spacer(modifier = Modifier.width(32.dp))
